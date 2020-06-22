@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Converter Temperatura"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:id="@+id/txtCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Celsius"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/adtCelsius"
+        android:inputType="numberDecimal"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:maxLength="5" />
+
+    <Button
+        android:id="@+id/btnConverter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Converter" />
+
+    <TextView
+        android:id="@+id/txtMensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Mensagem"
+        android:textColor="@color/colorAccent"
+
+        />
+
+</LinearLayout>
